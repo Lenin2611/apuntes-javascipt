@@ -2,7 +2,7 @@
 
 function asciiAZ(string) {
     for (let i = 0; i < string.length; i++) {
-        const character = string.charAt(i);
+        const character = string.charCodeAt(i);
         if (character < 97 || character > 122) {
             return false;
         }
@@ -11,8 +11,8 @@ function asciiAZ(string) {
 }
 
 function password() {
-    let a = '';
-    let b = 'b';
+    let a = 'aaa';
+    let b = 'bbb';
     let aList = a.split('');
     let bList = b.split('');
     let longest = '';
