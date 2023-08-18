@@ -12,7 +12,8 @@ class Stack {
             const nodeDel = this.stack.pop(); // Eliminamos el ultimo elemento
             if (this.isEmpty()) { // Se verifica que el stack este completamente vacio
                 this.top = null; // Declaramos que el stack ha sido vaciado, pues el elemento observado es el null (fondo del stack)
-            } else { // En caso de que todavia no este vacio
+            }
+            else { // En caso de que todavia no este vacio
                 this.top = this.stack[this.stack.length - 1]; // Declaramos al nuevo ultimo nodo como el elemento observado
             }
             return nodeDel; // Retornamos el nodo que se elimino

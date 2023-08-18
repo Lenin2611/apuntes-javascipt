@@ -25,7 +25,7 @@ class Nodo {
 }
 
 let listaAnidada = new Lista();
-listaAnidada.push(24);
+listaAnidada.push(1);
 listaAnidada.push(2);
 listaAnidada.push(3);
 listaAnidada.push(9);
