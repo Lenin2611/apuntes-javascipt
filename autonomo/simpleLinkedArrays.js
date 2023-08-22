@@ -181,7 +181,13 @@ class linkedList {
         }
         this.size++;
     }
-
+    getAt(index) { // Mostrar el elemento que esta en el index de la lista
+        let current = this.head;
+        for (let i = 0; i !== index; i++) {
+            current = current.next;
+        }
+        return current;
+    }
 }
 
 let myList = new linkedList;
@@ -292,3 +298,11 @@ let myList = new linkedList;
 // console.log('\ninsertBefore:\n');
 // myList.insertBefore(1, 3);
 // console.log(myList);
+
+// console.log('\nLista:\n');
+// myList.push(1);
+// myList.push(2);
+// myList.push(3);
+// console.log(myList);
+// console.log('\ngetAt:\n');
+// console.log(myList.getAt(2));
