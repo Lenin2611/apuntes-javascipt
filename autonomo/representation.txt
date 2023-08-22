@@ -1,0 +1,19 @@
+arrayStack: En una pila los elementos se insertan y se eliminan desde la parte superior (Top) siguiendo el principio 'LIFO' (ultimo en entrar, primero en salir). podemos ver que se agregan tres numeros (1, 2, 3), el elemento mas reciente es 3, por eso esta en la parte superior de la pila mientras que el mas antiguo, es decir el 1, esta en la parte inferior.
+
+ Top
+  |
++-+-+ +---+ +---+
+| 3 | | 2 | | 1 |
++---+ +---+ +---+
+
+simpleLinkedArrays: Cada elemento es un nodo con dos partes: un valor (10, 20, 30) y una sola referencia o puntero al siguiente nodo en la lista (next), el ultimo nodo (30) apunta a 'null' lo que indica el final de la lista.
+
+  Head
+   |
+ +----+   +----+   +----+   +------+
+ | 10 |-->| 20 |-->| 30 |-->| null |
+ +----+   +----+   +----+   +------+
+ Node 1   Node 2   Node 3
+  next --> next --> next -->  null
+
+doulbeLinkedArrays: 

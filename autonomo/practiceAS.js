@@ -43,19 +43,3 @@ class Stack {
         }
     }
 }
-
-let myStack = new Stack;
-myStack.push(1);
-myStack.push(4);
-myStack.push(5);
-myStack.push(2);
-console.log(myStack.log());
-myStack.pop();
-myStack.pop();
-myStack.pop();
-console.log(myStack.pop());
-console.log(myStack);
-console.log(myStack.log());
-console.log(myStack.peek());
-console.log(myStack.size());
-console.log(myStack.isEmpty());
