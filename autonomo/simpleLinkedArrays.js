@@ -238,17 +238,17 @@ let myList = new linkedList;
 // console.log('\nlen:\n');
 // console.log(myList.len());
 
-console.log('\nLista:\n');
-myList.push(1);
-myList.push(2);
-myList.push(3);
-myList.push(4);
-myList.push(5);
-console.log(myList);
-console.log('\nsearch(3):\n');
-console.log(myList.search(3));
-console.log('\nsearch(6):\n');
-console.log(myList.search(6));
+// console.log('\nLista:\n');
+// myList.push(1);
+// myList.push(2);
+// myList.push(3);
+// myList.push(4);
+// myList.push(5);
+// console.log(myList);
+// console.log('\nsearch(3):\n');
+// console.log(myList.search(3));
+// console.log('\nsearch(6):\n');
+// console.log(myList.search(6));
 
 // console.log('\nLista:\n');
 // myList.push(2);
