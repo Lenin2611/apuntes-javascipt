@@ -287,6 +287,7 @@ let myList = new linkedList;
 // console.log('\nLista:\n');
 // myList.push(1);
 // myList.push(2);
+// myList.push(3);
 // console.log(myList);
 // console.log('\ninsertBefore:\n');
 // myList.insertBefore(1, 3);
