@@ -188,6 +188,12 @@ class linkedList {
         }
         return current;
     }
+    insertAt(index, value) {
+        if (this.size === 0) {
+            return;
+        }
+        this.insertAfter(this.getAt(index - 1), value)
+    }
 }
 
 let myList = new linkedList;
